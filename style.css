@@ -1,0 +1,316 @@
+:root {
+    --black: #202020;
+    --grey: #f7f7f7;
+    --lightgrey: #d3d3d3;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: var(--grey);
+      overflow-x: hidden;
+      width: 100vw;
+    }
+
+    p {
+      font-family: josefin-sans,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      font-family: josefin-sans,sans-serif;
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    h3 {
+      font-size: 1.25em;
+      font-family: josefin-sans,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    h4 {
+      font-size: 1em;
+      font-family: abril-display,serif;
+      font-weight: 700;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+
+    .page {
+      -webkit-animation: fadeIn .8s ease-in;
+      -moz-animation: fadeIn .8s ease-in;
+      -ms-animation: fadeIn .8s ease-in;
+      -o-animation: fadeIn .8s ease-in;
+      animation: fadeIn .8s ease-in;
+    }
+
+    @keyframes fadein {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .tabbar {
+        background-color: var(--grey);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 100px;
+        z-index: 9999;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 24px;
+        align-items: center;
+        transition: all .6s ease;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+      }
+
+      #tabbar.hidebar {
+        top: -103px;
+      }
+
+      /* Style the links inside the navigation bar */
+    .tabbar a {
+        display: inline-block;
+        color: var(--black);
+        text-decoration: none;
+        font-size: 18px;
+        font-family: abril-display,serif;
+        font-weight: 700;
+        font-style: normal;
+        margin: 0 20px;
+        transition: .3s;
+    }
+
+    .tabbar a:hover {
+      opacity: .7;
+    }
+
+    .tabbar div {
+        margin: 0 20px;
+    }
+
+      /* Adding hover effect to the nav element */
+      /* .tabbar div a::after {
+        content: '';
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius:100%;
+        background: var(--black);
+        margin: 0 auto;
+        display: none;
+    }
+
+    .tabbar div a:hover::after {
+      display: block;
+    }
+   
+    .tabbar a.active::after {
+        content: '';
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius:100%;
+        background: var(--black);
+        margin: 0 auto;
+    } */
+
+    /* FOOTER */
+      footer {
+        display: flex;
+        text-align: left;
+        color: var(--black);
+        margin: 128px 0 16px 0;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: var(--black);
+      }
+
+      footer .icon {
+        font-size: 18px;
+        padding: 8px;
+        transition: 0.3s;
+      }
+
+      footer .icon:hover {
+        cursor: pointer;
+      transform: translateY(-4px);
+      transition:0.3s;
+      }
+
+      .my-email {
+        text-decoration: none;
+        font-family: abril-display,serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+        color: var(--black);
+        cursor: pointer;
+        /* transition: 0.3s; */
+
+        background:
+        linear-gradient(
+          to bottom, var(--black) 0%,
+          var(--black) 100%
+        );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+      transition: background-size .2s;
+          }
+
+      .my-email:hover {
+        background-size: 4px 50px;
+        color: var(--grey);
+        /* opacity: .7; */
+        /* color: transparent;
+        -webkit-text-stroke: 1px var(--black); */ 
+        /* HOW TO MAKE OUTLINE HOVER EFFECT */
+      }
+
+      footer p {
+        font-size: 16px;
+      }
+
+/* burger menu */
+
+#menuToggle input {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  footer {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 900px) {
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 32px;
+    z-index: 1;
+    user-select: none;
+  }
+  
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+  
+  }
+  
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    position: relative;
+    background: var(--black);
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+  
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -3px);
+    background: var(--black);
+  }
+  
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, 2px);
+  }
+  
+  #navmenu {
+    position: absolute;
+    top: -30px;
+    right: -70px;
+    width: 105vw;
+    height: 100vh;
+    background: var(--grey);
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+  
+  #navmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navmenu a {
+    padding: 20px;
+  }
+  
+  #menuToggle input:checked ~ #navmenu {
+    transform: none;
+  }
+
+}
+
+/* responsiveness */
+@media (max-width: 480px) {
+  h3 {
+    font-size: 1em;
+  }
+
+  .page {
+    margin-top: 164px;
+    padding: 20px;
+  }
+
+  .tabbar a {
+    margin: 0;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  footer img {
+    margin-bottom: 24px;
+  }
+}
