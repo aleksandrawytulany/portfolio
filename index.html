@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aleksandra Wytulany Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="/images/about/navicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio, frontend development, interaction and visual design">
+    <meta name="author" content="Aleksandra Wytulany">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/case-study.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hfm1aui.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e6b508437.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body onhashchange="pageChange()">
+
+    <!------------------ tabbar navigation ----------------------->
+
+    <nav id="tabbar" class="tabbar hide">
+
+        <div class="logo-container">
+            <a href="#home"><img src="./images/logo-icon.svg" alt="Logo icon"></a>
+        </div>
+            
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <div id="navmenu">
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#about">ABOUT</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- pages -->
+    <!---------------------- HOME PAGE --------------->
+
+    <section id="home" class="page">
+    <!-- <p>hi world</p> -->
+    <div class="home-hero-container">
+        <img src="./images/name-headline.svg" alt="Outline headline">
+        <h3>INTERACTION DESIGN      |       VISUAL DESIGN       |       FRONTEND DEVELOPMENT</h3>
+        <div class="icons-container">
+            <a href="mailto:wytulana001@gmail.com"><i class="fas fa-envelope some-icon"></i></a>
+            <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram some-icon"></i></a>
+            <!-- https://www.instagram.com/olawytulany/ -->
+            <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in some-icon"></i></a>
+            <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+            <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github some-icon"></i></a>
+            <!-- https://github.com/aleksandrabaaa -->
+            <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f some-icon"></i></a>
+            <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+            <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+        </div>
+    </div>
+
+    <div data-aos="fade-up">
+
+        <div class="about-intro-container">
+            <div>
+                <img src="./images/aboutme-img.jpg" alt="Opening photo" class="opening_ph">
+            </div>
+                <div class="about-text">
+                    <p>Aleksandra Wytulany here. Aarhus based young fronted developer, graphic designer, ux design curious and lunch-time content creator enthusiast. 
+                        I'm passionate about improving the lives of <strike>users</strike> people through design and am constantly looking to learn new things everyday.<br><br>
+                        When I’m not coding, designing or prototyping you can find me walking around the city with my camera, doodling or collecting seashells on the beach.<br><br>
+                        You can read more about my experience <a href="/images/resume-aleksandra-wytulany.pdf" dowland target="_blank">here</a> or check out my <a href="https://www.linkedin.com/in/aleksandra-wytulany/" target="_blank">LinkedIn profile</a>.</p>
+                        <div class="about-links">
+                            <a href="#about">Check out my profile</a>
+                            <a href="#portfolio">Check out my portfolio</a>
+                        </div>
+                </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div>
+        <a href="mailto:wytulana001@gmail.com" class="my-email" >wytulana001@gmail.com</a>
+        <p>Always down to collaborate. Let's get in touch!</p>
+            <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+            <!-- https://www.instagram.com/olawytulany/ -->
+            <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+            <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+            <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+            <!-- https://github.com/aleksandrabaaa -->
+            <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+            <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+            <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+        </div>
+        </footer>
+
+    </section>
+
+
+<!--PORTFOLIO PAGE-->
+    <section id="portfolio" class="page">
+
+        <div class="categories">
+            <h2 id="active-category">ui&ux </h2>
+            <p>/</p>
+            <a href="#photography"><h2> photography</h2></a>
+        </div>
+
+        <div data-aos="fade-up">
+
+            <div class="project-container">
+                <div class="text-container">
+                    <h2>HUSKØBET</h2>
+                    <p class="project-qualities">INTERNSHIP PROJECT | UI/UX | DASHBOARD</p>
+                    <p>Huskøbet is the biggest member club in Denmark for house buyers. 
+                        During my internship in this company, I had an opportunity to wear a hat of UI/UX designer and work 
+                        on a concept for user's dashboard.</p><br>
+                    <div>
+                        <a href="#huskobet-dashboard">View case study</a>
+                    </div>
+                </div>
+                <img src="./images/huskobet/huskobet-devices.png" alt="Huskobet dashboard" class="project-img togather-phone-img">
+            </div>
+        </div> 
+
+        <div data-aos="fade-up">
+
+            <div class="project-container" id="artil-container">
+                <div class="text-container">
+                    <h2>ARTIL MAGAZINE</h2>
+                    <p class="project-qualities">DESIGN | WEBSITE | PERSONAL PROJECT</p>
+                    <p>Artil was created in spring 2020 by Karla Borg with the goal of creating authentic and relatable content 
+                        for young women worldwide. Since then the project is now on it’s way to becoming a company with a clear mission: combating toxic social media culture
+                         and challenging the traditional “women’s magazines”.</p><br>
+                    <div>
+                        <a href="#artil-magazine">View case study</a>
+                    </div>
+                </div>
+        
+                <img src="./images/artil/artil-cover.png" alt="2gather events" class="project-img togather-phone-img">
+            
+            </div>
+        </div>
+
+        <div data-aos="fade-up">
+
+            <div class="project-container">
+                <div class="text-container">
+                    <h2>Arlagården Plus</h2>
+                    <p class="project-qualities">B2B | UI/UX | DASHBOARD</p>
+                    <p>Arlagården Plus is quality assurance programme for Arla's farmers and their farms. 
+                        They take responsibility for the milk, to ensure it is produced in a responsible 
+                        manner and is of a high quality standard.</p><br>
+                    <div>
+                        <a href="#arlaplus">View case study</a>
+                    </div>
+                </div>
+                <img src="./images/arla/arla-laptop.png" alt="Arlagården Plus" class="project-img">
+            </div>
+        </div>
+
+        <div data-aos="fade-up">
+
+            <div class="project-container">            
+                <div class="text-container">
+                    <h2>SIAMOSTREET FOOTBALL</h2>
+                    <p class="project-qualities">RESEARCH | DESIGN | WEBSITE</p>
+                    <p>Website for a social media driven company - SiamoStreet Football - 
+                        that lacked a website and place where users could get to know the company better, 
+                        read who they are and what they do as well as browse the company’s events and sign-up for a specific one.</p><br>
+                    <div>
+                        <a href="#siamostreet">View case study</a>
+                    </div>
+                </div>
+                <img src="./images/siamostreet/siamo-devices.png" alt="SiamoStreet Football" class="project-img siamo-devices-img">
+            </div>
+        </div>
+
+        <div class="scroll-top">
+            <button onclick="topFunction()" id="myBtn" title="Scroll to the top">
+            <p>Scroll to the top</p>
+            </button>
+        </div>
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email" >wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+                <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+                <!-- https://www.instagram.com/olawytulany/ -->
+                <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+                <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+                <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+                <!-- https://github.com/aleksandrabaaa -->
+                <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+                <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+                <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+
+    </section>
+
+    <!---------------------- PHOTOGRAPHY --------------->
+    <section id="photography" class="page">
+
+        <div class="categories">
+            <a href="#portfolio"><h2>ui&ux </h2></a>
+            <p>/</p>
+            <h2 id="active-category"> photography</h2>
+        </div>
+                
+        <div class="gallery-container">
+            <img src="./images/gallery/DSC_6878.jpg" alt="Gallery photo">
+            <img src="./images/gallery/DSC_6879.jpg" alt="Gallery photo">
+            <img src="./images/gallery/DSC_6880.jpg" alt="Gallery photo">
+            <img src="./images/gallery/DSC_6900.jpg" alt="Gallery photo">
+            <img src="./images/gallery/DSC_6904.jpg" alt="Gallery photo">
+            <img src="./images/gallery/DSC_6908.jpg" alt="Gallery photo">
+        </div>        
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email" >wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+                <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+                <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+                <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+                <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+                <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+
+    </section>
+
+    <!---------------------- ARTIL --------------->
+
+    <section id="artil-magazine" class="page">
+        <div class="intro-container">
+            <div>
+                <a href="#portfolio" class="arrow-link"><i class="fas fa-hand-point-left"></i> Go back to the projects</a>
+                <h2>ARTIL MAGAZINE</h2>
+                <p>DESIGN / WEBSITE / PERSONAL PROJECT</p>
+                <p>Artil was created in spring 2020 by Karla Borg with the goal of creating authentic and relatable content 
+                    for young women worldwide. Since then the project is now on it’s way to becoming a company with a clear mission: combating toxic social media culture
+                     and challenging the traditional “women’s magazines”.</p>
+                <a href="#" class="prototype-link" target="_blank">Open the prototype</a>
+            </div>
+            <img src="./images/artil/artil.png" alt="artil logo">
+        </div>
+
+            <div class="screens-container">
+                <img src="./images/artil/artil-homepage-brown.gif" alt="Artil homepage gif" style="max-width: 1000px; margin: 0 auto;">
+            </div>
+        
+        <div class="project-description-box">
+            <h4><span>IDEATION</span></h4>
+            <p style="font-weight: bold;">A trustworthy website for women seeking for change</p>
+            <p class="description-paragraph">The artil's readers have a curious and conscious mind. They are fed up with today’s society and the lack of action by world leaders and the established system. They want to see change on a larger scale and they find value in being part of that change. The new website aims to help them find fresh and ballsy content as artil isn't afraid of talking loud about anything. This is their new place to get inspired, get knowledge, get involved and get entertained.</p>
+
+            <h4><span>DESIGN GOAL</span></h4>
+            <p style="font-weight: bold;">Fresh and inspiring design to communicate direct and clear message</p>
+            <p class="description-paragraph">
+                Artil developed its visual identity mostly through social media. It's color palette includes a mix of cold greys, warm browns and off-black colors which gives a sophisticated, professional and modern vibe with a pinch of honest and warm feeling at the same time. Additionally, using a mix of elegant serfi Abril font family and sans serif Lato with semi-rounded details perfectly combine each other. My role was to appropriately implement it on the website so it gives the same kind of feeling.</p>
+            
+            <div class="screens-container">
+                <img src="./images/artil/artil-article.gif" alt="Artil article gif" style="max-width: 1000px; margin: 0 auto;">
+            </div>
+
+            <h4><span>WEB DESIGN</span></h4>
+            <p style="font-weight: bold;">Synergy of uniformity and consistency to increase the attention</p>
+            <p class="description-paragraph">A website for an online magazine means lots of articles, text and visuals. This is why I put a focus on simplicity with the design, still keeping it interesting.<br><br>
+                <span class="dot">&#8226;</span>Displaying thumbnails of articles in different sizes, structured in mixed order so visitors don't get bored easily, when scrolling the page<br>
+                <span class="dot">&#8226;</span>Content presented through diverse visuals like photos, graphics and collages to make it more attractive<br>
+                <span class="dot">&#8226;</span>Sleek and clean layout and a uniform colour scheme to maintain consistency<br>
+            </p>
+
+            <div class="screens-container">
+                <img src="./images/artil/artil-teampage.png" alt="Artil team page gif" style="max-width: 1000px; margin: 0 auto;">
+            </div>
+
+            <h4><span>FINAL THOUGHTS</span></h4>
+            <p style="font-weight: bold;">Values and messages are as important as visuals</p>
+            <p class="description-paragraph">To wrap things up, I created a responsive website for online magazine that through inclusive visuals and  fresh design communicates artil's messages, while staying true to the overall branding. Now, with the new site, the brand can empower and inspire women around the world to become the best version of themselves and take action for a better world.</p>
+        
+            <div class="screens-container">
+                <img src="./images/artil/artil-about-video.gif" alt="Artil article gif" style="max-width: 1000px; margin: 0 auto;">
+            </div>
+
+        </div>
+
+        <div class="scroll-top">
+            <button onclick="topFunction()" id="myBtn" title="Scroll to the top">
+            <p>Scroll to the top</p>
+            </button>
+        </div>
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email" >wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+                <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+                <!-- https://www.instagram.com/olawytulany/ -->
+                <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+                <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+                <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+                <!-- https://github.com/aleksandrabaaa -->
+                <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+                <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+                <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+
+    </section>
+
+    <!---------------------- ARLAGARDENPLUS --------------->
+
+    <section id="arlaplus" class="page">
+        <div class="intro-container">
+            <div>
+                <a href="#portfolio" class="arrow-link"><i class="fas fa-hand-point-left"></i> Go back to the projects</a>
+                <h2>Arlagården Plus | Dashboard</h2>
+                <p>B2B / UI/UX Design / Coding</p>
+                <p>Every farmer participating in the Arlagården Plus programme, has to enter sustainability data regarding his farm. Sounds boring already? Well, the sustainable survey consists of 100 questions which have to be filled out 4 times per year. Quite a lot, when you have hundreds of cows to milk.
+                    How to motivate them to fill the survey and save their time and money? New Arlagården Plus farmer's dashboard is a solution for that - user-friendly, easy to navigate and functional tool that gives them help towards a carbon-free planet.</p>
+                <a href="https://xd.adobe.com/view/864f31be-5aba-4872-99cb-14c97e09827a-d31c/" class="prototype-link" target="_blank">Open the prototype</a>
+            </div>
+            <img src="./images/arla/arlalogo.png" alt="Arla logo">
+        </div>
+        
+        <div class="project-description-box">
+            <img src="./images/arla/login-page.png" alt="Login page">
+
+            <h4><span>Problem</span></h4>
+            <p class="description-paragraph">Data entry is generally boring and creating an interesting survey is a challenge in itself. Combining this with the fact that Arla farmers are busy people with a business to run, doesn’t make it easier. Filling out one hundred questions survey every third month, takes away from their valuable time. So why is it even worth it? Besides the extra cent per kg milk we also believe that farmers genuinely want to make the planet a better place. They make a living off the land and, being very family oriented, they also want to leave healthy earth for their grandchildren.</p>
+            <p style="font-family: abril-display,serif; font-size: 1.5em;">How can we provide Arla's farmers with a fast and easy to use platform that will motivate them to fill the sustainable survey and track their progress?</p>
+            
+            <img src="./images/arla/home-page.png" alt="Home page" style="margin-top: 24px;">
+
+            <h4><span>Solution</span></h4>
+            <p class="description-paragraph">The answer for the problem was a dashboard where farmers can access via logging into a personal profile. The platform includes the sustainable survey, feature to track the progress, calculate the extra money and educate about sustainable farming. </p>
+            
+            <img src="./images/arla/survey-main.png" alt="Arlagarden plus survey" style="margin-top: 24px;">
+
+            <h4><span>Design goals</span></h4>
+            <p style="font-weight: bold;">Dashboard as a visible, customisable and accessible tool</p>
+            <p class="description-paragraph">The survey is enough confusing, so the goal was to provide farmers with clear, simple but still engaging interface, The key point was to minimise noise, maintain engagement and prioritise the sustainable survey with progres tracking:<br>
+                <span class="dot">&#8226;</span>go for an interface that will be easy enough to use even for not tech-savvy farmers<br>
+                <span class="dot">&#8226;</span>keep the layout well-organised<br>
+                <span class="dot">&#8226;</span>prioritise the most important features.</p>
+            
+            <h4><span>Usability testing</span></h4>
+            <p style="font-weight: bold;">Kill your darlings</p>
+            <p class="description-paragraph">Not always features and improvements that designers are excited about benefit the users. Usability testing was crucial to discover flaws of the functionalities or problems with navigating the platform. 
+                Surprisingly, extra features like weather forecasts don't matter so much for the milk farmers. But by removing it I could focus on some more important elements.</p>
+
+                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                border-radius: 8px; will-change: transform;">
+                 <iframe style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                   src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEZx7pXGLk&#x2F;view?embed">
+                 </iframe>
+               </div>
+               <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEZx7pXGLk&#x2F;view?utm_content=DAEZx7pXGLk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+
+            <h4><span>FINAL PITCH</span></h4>
+            <p class="description-paragraph">Creating a solution for such a big fish on the dairy market as Arla is, was a challenge in itself but also a great opportunity to develop many skills and gain valuable experience. Additionally, the project finished with professional pitch, presented in front of senior ux designers, was a chance to get relevant feedback from professionals and practice my communication and articulation skills.</p>
+
+            <h4><span>Conslusion</span></h4>
+            <p style="font-weight: bold;">There is no planet B</p>
+            <p class="description-paragraph">It’s more crucial than ever before, that we all take responsibility for the planet we’re living on. Farmers especially carry a huge weight on their shoulders, and although often faced with a lot of criticism, they actually work hard to reduce their environmental impact. Arlagården Plus is a program which ensures that the milk is being produced in an environmentally conscious way, and that the animals are happy and healthy. 
+                Now, with user-friendly, intuitive dashboard that would assist farmers in their daily lives, they can keep an eye on their progress, educate about environmental impact that the farming has and improve they journey towards more sustainable and nature-friendly farm.</p>
+        
+            <img src="./images/arla/survey-finished.png" alt="Arlagarden plus survey" style="margin-top: 24px;">
+
+        </div>
+    </div>
+
+    <div class="scroll-top">
+        <button onclick="topFunction()" id="myBtn" title="Scroll to the top">
+        <p>Scroll to the top</p>
+        </button>
+    </div>
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email" >wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+                <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+                <!-- https://www.instagram.com/olawytulany/ -->
+                <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+                <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+                <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+                <!-- https://github.com/aleksandrabaaa -->
+                <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+                <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+                <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+    </section>
+
+    <!---------------------- SIAMOSTREET FOOTBALL --------------->
+
+    <section id="siamostreet" class="page">
+        <div class="intro-container">
+            <div>
+                <a href="#portfolio" class="arrow-link"><i class="fas fa-hand-point-left"></i> Go back to the projects</a>
+                <h2>SIAMO STREET FOOTBALL | WEBSITE</h2>
+                <p>UI/UX Design / SPA Architecture</p>
+                <p>Website for a social media driven company - SiamoStreet Football - that lacked a website – a place where users could get to know the company better, read who they are and what they do as well as browse the company’s events and sign-up for a specific one.</p>
+                <a href="https://xd.adobe.com/view/c838607a-af8e-4268-b9c5-0e4ba14650c3-9d6b/#access_token=eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEta2V5LTEuY2VyIn0.eyJpZCI6IjE2MTY0MTc3MzAxMjJfZTZhZTZmM2ItNjgwZi00M2YzLWFiMTktMGU3MzE5ZWIwNjcwX2V3MSIsImNsaWVudF9pZCI6IkNvbWV0V2ViMSIsInVzZXJfaWQiOiI1NERFMTM5NzVENjJBRkMzMEE0OTVFNjZAQWRvYmVJRCIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJhcyI6Imltcy1uYTEiLCJhYV9pZCI6IjU0REUxMzk3NUQ2MkFGQzMwQTQ5NUU2NkBBZG9iZUlEIiwiZmciOiJWSkk1V0VRVFZMSDVOSDRHRzRKTFJHUUEzRT09PT09PSIsInNpZCI6IjE2MTUzNjc4NjcwMzVfNzY3ZWVkNmYtODdiNC00NmNhLTk4ZGQtOGU1MTYyMjY5NWNkX3VlMSIsIm1vaSI6ImNjYTYyODk1IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiIiLCJjcmVhdGVkX2F0IjoiMTYxNjQxNzczMDEyMiJ9.qlwt8O6v3QqjJvs8wnvNFHGihDrSEBlKUgGCEQiR4H4Bt3kZtrIgt3n8RtTFs6QwkVm-oZKfX1HflCULFZ9NpEM7yETfqsOumTwaXHsyHsXaNVZm1NJqdOAjT_6Jm4LpdXFMxTHOfgHskUbDTw-dufd2RJpM_JJl_z8JIrTe4H00HGYfsdB2cY_sFn2zA_MtezKmd2zlKEvsS1qMsqhSW0hvDbrikZZw6Y0fizi59mNa81XYj00UOoyqrsEJv0ZaCLeBuKp3rjUj2nJfcWTBt1n3DRHuHejUq0rPEBRpBnkg8gKhFvzTya-Ewh5Rr9IPEhK-EGUQhwLRV0SfNNdwig&token_type=bearer&expires_in=86399996" class="prototype-link" target="_blank">Open the prototype</a>
+            </div>
+        <img src="./images/siamostreet/siamo-logo.png" alt="Siamo street logo">
+        </div>
+
+            <img src="./images/siamostreet/SiamStreet-home-page.png" alt="Siamo street home page" class="siamo-imgs">
+        
+            <div class="project-description-box">
+            
+                <h4><span>Problem</span></h4>
+                <p class="description-paragraph">Siamo Street Football is a start up with a mission to connect people over their passion, football. They organize different kinds of events, where the participants have the opportunity to improve their skills, compete, win prizes and, above all, have fun and make friends. Their current online presence is based on Social Media, where they announce events, cover previous ones and interact with members.</p>
+                <p style="font-family: abril-display,serif; font-size: 1.5em;">How can we create awareness and interest among the target audience and provide content they are interested in?</p>
+                
+                <h4><span>Solution</span></h4>
+                <p class="description-paragraph">Siamo Street needs a solution to establish its fledgling business with a professional approach over the Internet. Website allows the incoming users to easily sign up for an event, read about the company, founders or concept and be up to date with upcoming events. The platform is for the users but a new structure also helps the founders to organize the data, create the teams and manage the events.</p>
+                
+                <img src="./images/siamostreet/siamo-events.png" alt="SiamoStreet events" class="siamo-imgs">
+
+                <h4><span>CHALLENGES</span></h4>
+                <p class="description-paragraph">Being conscious of the problem, I have to be aware of the limitations that are waiting for me. I have to connect my digressions with problem statement to understand better what boundaries should be imposed on the solution. On of it was a topic - a girl vs rather boyish theme. I supported my knowledge with a comprehensive research but also understand how important it's to go outside your comfort zone. Another thing worth mentioning is that the solution was going to be responsive, include many features and present modern and interesting design in just a few weeks. One would say ‘time flies’ but in this case, time flies a jet.</p>
+                
+                <h4><span>RESEARCH</span></h4>
+                <p style="font-weight: bold;">The link between client and user goals</p>
+                <p class="description-paragraph">The solution had a goal to combine user's needs like easy and quick event registration, as well as client's goals to create a website that would take the company to the next level. 
+                    Having its own website, Siamo Street would get more independence and flexibility with managing the brand. After the stakeholder interview, I also got a better understanding of what the platform should include: 'about Siamo Street' section, photo gallery from the past events, overview of the upcoming events and obviously sign-up form.
+                    <br><br>
+                    From the survey, which was conducted among participants, who already know Siamo and participate in it's events, I got a brief overview of their needs. After analysis of the findings I concluded that there is a strong link between what client and users want. A sweetspot in this situation would be a website that familiarises new users with Siamo Street, gives a possibility to browse past or upcoming events and allows to quickly sign-up for a dreamy event.</p>
+    
+                <img src="./images/siamostreet/siamo-team-img.png" alt="SiamoStreet team" class="siamo-imgs">
+
+                <h4><span>IDEATION</span></h4>
+                <p style="font-weight: bold;">Creating a more transparent and convenient event registration</p>
+                <p class="description-paragraph">The current event sign-up experience is quiet confusing for the users. What's more, events cooridnators have problems to handle the data and have tchem better organised. Now, the website provides users with a transparent and short sign-up form that requires a minimum amount of data and time to spend on.
+                    The organisers can upload information about new event through WordPress and The Events Calendar plugin and registration form will provide them with essential information about the users, which will be helpful to organize the data, create the teams and manage the events.</p>
+    
+                <h4><span>DESIGN GOALS</span></h4>
+                <p style="font-weight: bold;">Modern, eye-catchning and professional design</p>
+                <p class="description-paragraph">I tried to reflect this through the choice of colors and typography. Colors like deep navy blue and golden, combined together create a good contract and keep consistency with the company's logo. They bring feelings of trust, passion and courage that I want the users to feel when visiting the website. Everything is well-balanced with white space. Two font families: Oswald and Open Sans demonstrate simplicity and straight-forward attitude - and don't make the page look very formal or official.</p>
+            
+            </div>
+
+            <div class="scroll-top">
+                <button onclick="topFunction()" id="myBtn" title="Scroll to the top">
+                <p>Scroll to the top</p>
+                </button>
+            </div>
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email" >wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+                <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+                <!-- https://www.instagram.com/olawytulany/ -->
+                <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+                <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+                <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+                <!-- https://github.com/aleksandrabaaa -->
+                <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+                <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+                <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+
+    </section>
+
+    <!---------------------- HUSKOBET --------------->
+    <section id="huskobet-dashboard" class="page">
+        <div class="intro-container">
+            <div>
+                <a href="#portfolio" class="arrow-link"><i class="fas fa-hand-point-left"></i> Go back to the projects</a>
+                <h2>HUSKØBET</h2>
+                <p>INTERNSHIP PROJECT | UI/UX | DASHBOARD</p>
+                <p>Buying a house, renovating or building can be quiet complex. Each time it's associated with a large investment and many considerations that sometimes require expert's help. Lots of documentation, going back and forth from one office to another adds extra complexity to the whole process. Together with Huskøbet, we built a solution for that problem: user's dashboard that enables members to easily get professional help within law, finances, insurance or construction to make the house journey smooth and even enjoyable.</p>
+                <!-- <a href="https://xd.adobe.com/view/c838607a-af8e-4268-b9c5-0e4ba14650c3-9d6b/#access_token=eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEta2V5LTEuY2VyIn0.eyJpZCI6IjE2MTY0MTc3MzAxMjJfZTZhZTZmM2ItNjgwZi00M2YzLWFiMTktMGU3MzE5ZWIwNjcwX2V3MSIsImNsaWVudF9pZCI6IkNvbWV0V2ViMSIsInVzZXJfaWQiOiI1NERFMTM5NzVENjJBRkMzMEE0OTVFNjZAQWRvYmVJRCIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJhcyI6Imltcy1uYTEiLCJhYV9pZCI6IjU0REUxMzk3NUQ2MkFGQzMwQTQ5NUU2NkBBZG9iZUlEIiwiZmciOiJWSkk1V0VRVFZMSDVOSDRHRzRKTFJHUUEzRT09PT09PSIsInNpZCI6IjE2MTUzNjc4NjcwMzVfNzY3ZWVkNmYtODdiNC00NmNhLTk4ZGQtOGU1MTYyMjY5NWNkX3VlMSIsIm1vaSI6ImNjYTYyODk1IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiIiLCJjcmVhdGVkX2F0IjoiMTYxNjQxNzczMDEyMiJ9.qlwt8O6v3QqjJvs8wnvNFHGihDrSEBlKUgGCEQiR4H4Bt3kZtrIgt3n8RtTFs6QwkVm-oZKfX1HflCULFZ9NpEM7yETfqsOumTwaXHsyHsXaNVZm1NJqdOAjT_6Jm4LpdXFMxTHOfgHskUbDTw-dufd2RJpM_JJl_z8JIrTe4H00HGYfsdB2cY_sFn2zA_MtezKmd2zlKEvsS1qMsqhSW0hvDbrikZZw6Y0fizi59mNa81XYj00UOoyqrsEJv0ZaCLeBuKp3rjUj2nJfcWTBt1n3DRHuHejUq0rPEBRpBnkg8gKhFvzTya-Ewh5Rr9IPEhK-EGUQhwLRV0SfNNdwig&token_type=bearer&expires_in=86399996" class="prototype-link" target="_blank">Open the prototype</a> -->
+            </div>
+        <img src="./images/huskobet/huskobet-logo.png" alt="Huskobet logo">
+        </div>
+
+        <div class="screens-container">
+            <img src="./images/huskobet/huskobet-home.png" alt="Huskobet dashboard">
+        </div>
+
+        <div class="project-description-box">
+            
+            <h4><span>Problem</span></h4>
+            <p class="description-paragraph">Huskøbet is a member club, which provides its members with network of independent advisors, knowledge universe and services that helps in house buying, renovating or building. But being a member club, the company doesn't have a reliable place for its members. The place where they can keep their data, upload necessary documents and get help from advisors and experts from the field. House journey is a complex process, paper work, lots of spent money and worries. Many users struggle with vocabulary of the house buying industry and need a tool which helps them gather everything in one place.</p>
+            <p style="font-family: abril-display,serif; font-size: 1.5em;">How through digital solution can I help Huskøbet’s members handle the house journey and improve experience with processing the services?</p>
+            
+            <h4><span>Solution</span></h4>
+            <p class="description-paragraph">We can all agree that one of the best solutions for displaying and organising information, tracking the data and providing the user with clear and easy to digest overview of information is dashboard. That was my plan for this project: to design an easy-to-navigate dashboard that is user-friendly, functional and nice-looking tool for Huskøbet's members. </p>
+            
+            <div class="screens-container">
+                <img src="./images/huskobet/huskobet-cases.png" alt="Huskobet cases">
+            </div>
+
+            <h4><span>PROCESS</span></h4>
+            <p class="description-paragraph">I divided my work into three main stages:<br><br>
+                <span>&#8226;</span><span style="font-weight: bold;">research and analysis</span> which involves interviewing the stakeholders, business analysis and defining the target audience, understanding their behaviors by empathy map and mapping user's experience with user journey,<br>
+                <span>&#8226;</span><span style="font-weight: bold;">design</span> where I run competitive analysis, defined the style for my solution, wireframed my ideas and then prototyped the mock-ups, as my next stage was...<br>
+                <span>&#8226;</span><span style="font-weight: bold;">...usability testing</span> that I run using clickable prototype to reveal any pitfalls and ensure that the product is easily accessible and can help reduce users' pains and fulfil their needs.</p>
+
+            <div class="screens-container">
+                <img src="./images/huskobet/huskobet-caseexample.png" alt="Huskobet case example">
+            </div>
+
+            <h4><span>DESIGN REVIEW</span></h4>
+            <p style="font-weight: bold;">Communicating the values through visuals</p>
+            <p class="description-paragraph">Huskøbet has developed it's visual identity through digital platforms, like website, social media or advertising. The company uses its recognisable blue color scheme, which triggers feeling like loyalty, trust, knowledge, seriousness and stability. I aimed to trigger the same feeling through my solution, playing with colors, soft shadows and rounded corners. Applying design principles, like proximity, symmetry or similarity I wanted to make the design more aesthetically pleasing and better communicate the values through visuals.</p>
+
+            <h4><span>IDEATION</span></h4>
+            <p style="font-weight: bold;">A safe family life, requires the right housing choices</p>
+            <p class="description-paragraph">Buying, building or renovating a house was never easy. Even when we constantly developing and technology provides us with the latest improvements, there are still areas that we can handle overselves. My goal was to come up with a intuitive, user-friendly and modern tool that with its simple intercase, functionalities and good-looking design can help the Huskøbet 's members handle any house issue and take them closer to the HOME of their dreams.</p>
+
+            <div class="screens-container">
+                <img src="./images/huskobet/huskobet-dashboard-gif.gif" alt="Huskobet mobile screens">
+            </div>
+
+            <h4><span>HOW IT WORKS</span></h4>
+            <p style="font-weight: bold;">From a booked service to the open case</p>
+            <p class="description-paragraph">Having registered to the member club, user has now access to his personal dashboard. From now on he has access to his cases, benefits of the member club and personal data. But wait, could you explain what are the 'cases'?<br><br>
+                The user starts his house journey by booking a service from variety of choices. When he makes 'an order' he is directly taken to the dashboard when the 'new case' starts. In the new case user works with the assigned advisor on the chosen service that could be a sketch drawing with architect or ownership insurance with bank advisor.<br><br>
+                Think of it as a web-shop. You go to the services list (product page), make an order ('buy' a product) and go to the basket (dashboard).</p>
+
+            <h4><span>MOBILE RESPONSIVE</span></h4>
+            <p class="description-paragraph">Mobile responsive isn't an option anymore. As these small devices constantly assist us in our daily lives it essential to design a mobile-friendly interface. 70% of Huskobet's users are active phone users so it was crucial to have the solution responsive for smaller screen sizes.</p>
+
+            <div class="screens-container">
+                <img src="./images/huskobet/huskobet-gif.gif" alt="Huskobet mobile screens">
+            </div>
+
+            <div class="mobile-screens-container">
+                <img src="./images/huskobet/cases-mobile.png" alt="Huskobet mobile screens">
+                <img src="./images/huskobet/case-mobile.png" alt="Huskobet mobile screens">
+                <img src="./images/huskobet/calendar-mobile.png" alt="Huskobet mobile screens">
+            </div>
+
+            <h4><span>FINAL THOUGHTS</span></h4>
+            <p style="font-weight: bold;">Learning by doing</p>
+            <p class="description-paragraph">Beginnings are always hard because we see the huge amount of work it takes to finish. And when we finally start, the reality kicks in. Lots of brainstormings, rethinking, fighting with your own thoughts, not being sure if what you're doing goes in the right direction. We suddenly realise what a milestone it is to finish what we've already started. But in the end, reaching the last pages it's a blissful moment full of pride and fulfilment.<br><br>
+                I have to say that until now it was the biggest individual project I've ever taken on my shoulders. Adding a short period of time and a big scope of the project, I can truly admit that I gained lots of experience, knowledge and skills that help me develop as a young multimedia designer.</p>
+        </div>
+
+        <div class="scroll-top">
+            <button onclick="topFunction()" id="myBtn" title="Scroll to the top">
+            <p>Scroll to the top</p>
+            </button>
+        </div>
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email">wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+            <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+            <!-- https://www.instagram.com/olawytulany/ -->
+            <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+            <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+            <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+            <!-- https://github.com/aleksandrabaaa -->
+            <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+            <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+            <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+
+    </section>
+
+    <!-------------- ABOUT PAGE --------------->
+
+    <section id="about" class="page">
+        <div class="about-container">
+            <!-- <div>
+                <img src="./images/DSC_0001-02.jpeg" alt="My photo" class="opening_ph">
+            </div> -->
+            <div class="about-text">
+                <h3 class="quote-headline">I'm an <span class="outlined-words">open-minded</span><br>multimedia designer</h3>
+                <p>who has a great enthusiasm for designing digital products that touch people's hearts. My ambition is to elevate, connect and empower people through inclusive and long-lasting solution designs. I am known for being goal-oriented, ambitious and energetic.<br><br>
+                    As a freshly Business Academy Aarhus graduate, I've already got many opportunities to expand my knowledge and increase my experience in the field of multimedia design. Besides many school projects, which focused on developing the digital solutions, including research, creative problem solving, design thinking and coding, I also experienced internship at Huskøbet and Design Rocket which in the end resulted in gaining more knowledge in real-life situations and skills in the digital design area.<br><br>
+                    If you want to know more about my experience please click <a href="./images/Aleksandra-Wytulany-resume.pdf" target=”_blank”>here</a>.
+                </p>
+            </div>
+        </div>
+
+            <div class="work-categories">
+                <div class="content-container">
+                    <div>
+                        <img src="./images/about/uiux-illustration.png" alt="category image">    
+                    </div>
+                   <div class="category-text">
+                       <h2>ui &#38 ux design</h2>
+                       <p>Through my education and experience I have developed a range of skills in UI design, prototyping, graphics, user-centered design, information architecture, research and business analysis. My favourite tools are: Figma, Adobe XD, Photoshop, Illustrator.</p>
+                   </div> 
+                </div>
+
+                <div class="content-container">
+                    <div>
+                        <img src="./images/about/photo-illustration.png" alt="category image">    
+                    </div>
+                   <div class="category-text">
+                       <h2>photography</h2>
+                       <p>Everywhere I go, I always take my camera with me. As a story-teller soul I find it easy to express myself and tell the story through my photos. Not a shame to admit that I'm an amateur, but, with a professional approach and an eye to the details. Get some inspiration in the photography section.</p>
+                   </div> 
+                </div>
+
+                <div class="content-container">
+                    <div>
+                        <img src="./images/about/content-illustration.png" alt="category image">    
+                    </div>
+                   <div class="category-text">
+                       <h2>social content</h2>
+                       <p>Social media is a thing and we all know about it. And effective communication with aesthetically pleasing content is what I do to make a use out of it. Post or stories templates, strategy and campaign is what I'm experienced in.</p>
+                   </div> 
+                </div>
+            </div>
+
+        
+
+        <!-- CHECK IT: https://medium.com/@kathykato/creating-reveal-effects-on-scroll-9cb04b39c9a5 -->
+
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email">wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+            <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+            <!-- https://www.instagram.com/olawytulany/ -->
+            <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+            <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+            <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+            <!-- https://github.com/aleksandrabaaa -->
+            <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+            <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+            <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+        
+    </section>
+
+    <!-- -----------CONTACT----------- -->
+    <section id="contact" class="page">
+        <div class="contact-container">
+            <h2>Let's get in touch!</h2>
+            <p>If you have any question, send me e-mail or just follow me on the socials.<br>
+                I'm currently located in Aarhus, but I'm also open for any remote job or project.<br><br>
+                <!-- You can get my resume <a href="/images/resume-aleksandra-wytulany.pdf" dowland target="_blank">here</a>. -->
+                <span style="font-weight: 700;">Can't wait to start working on something creative with you:</span><br><br>
+                    <span style="line-height: 1.2;">
+                        <span>&#8226;</span> interface layout, components and design systems<br>
+                        <span>&#8226;</span> site architecture and interaction design<br>
+                        <span>&#8226;</span> high-quality, clickable prototypes<br>
+                        <span>&#8226;</span> brand strategy, color theory, visual hierarchy and layout<br>
+                        <span>&#8226;</span> user research, strategy, journey mapping and user testing<br>
+                        <span>&#8226;</span> social media strategy and content<br>
+                        <span>&#8226;</span> photo shoots and photography editing<br>
+                    </span>
+        </div>
+        <footer>
+            <div>
+            <a href="mailto:wytulana001@gmail.com" class="my-email">wytulana001@gmail.com</a>
+            <p>Always down to collaborate. Let's get in touch!</p>
+            <a href="https://www.instagram.com/olawytulany/" target="_blank"><i class="fab fa-instagram icon some-icon" style="padding-left: 0;"></i></a>
+            <!-- https://www.instagram.com/olawytulany/ -->
+            <a href="https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/" target="_blank"><i class="fab fa-linkedin-in icon some-icon"></i></a>
+            <!-- https://www.linkedin.com/in/aleksandra-wytulany-9104141b8/ -->
+            <a href="https://github.com/aleksandrabaaa" target="_blank"><i class="fab fa-github icon some-icon"></i></a>
+            <!-- https://github.com/aleksandrabaaa -->
+            <a href="https://www.facebook.com/aleksandra.wytulany.9/" target="_blank"><i class="fab fa-facebook-f icon some-icon"></i></a>
+            <!-- https://www.facebook.com/aleksandra.wytulany.9/ -->
+            <a href="https://www.behance.net/aleksanwytulan" target="_blank"><i class="fab fa-behance icon some-icon"></i></a>
+            </div>
+        </footer>
+    </section>
+
+    <!-- -----------LOADER----------- -->
+    
+
+     <!----- SPA functionality ----->
+     <script src="spa.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+<!-- top scroll -->
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+
+</html>
