@@ -1,0 +1,81 @@
+h4 span {
+  border-bottom: 4px solid var(--black);
+}
+
+.project-description-box {
+  margin-top: 80px;
+}
+
+.description-paragraph {
+  margin: 40px 0;
+}
+
+.problem-statement {
+  margin: 0;
+  font-family: abril-display, serif;
+}
+
+  .dot {
+    padding-right: 8px;
+    border-bottom: none;
+  }
+
+  .intro-container {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+
+  @keyframes back-arrow {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .screens-container {
+    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.16);
+  }
+
+  .mobile-screens-container img {
+    box-shadow: none;
+  }
+
+  @media (max-width: 480px) {
+    .intro-container img {
+      display: none;
+    }
+
+    .screens-container {
+      width: 100%;
+      margin: 0;
+    }
+
+    .mobile-screens-container {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .intro-container p {
+      width: 500px;
+    }
+
+    .problem-statement {
+      font-size: 1.5em;
+    }
+  }

@@ -1,0 +1,22 @@
+#contact h2 {
+    font-family: abril-display,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.contact-container a {
+    color: var(--black);
+}
+
+#contact footer {
+    bottom: 0;
+    width: 100%;
+}
+
+/* @media (min-width: 768px) {
+    #contact footer {
+      position: absolute;
+    }
+} */

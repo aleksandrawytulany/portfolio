@@ -1,0 +1,92 @@
+/* HERO STYLING */
+.home-hero-container {
+  text-align: center;
+}
+
+.home-hero-container h3 {
+  margin: 32px 0;
+}
+
+#home h3 {
+  text-transform: uppercase;
+}
+
+.icons-container a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.icons-container .some-icon {
+  font-size: 18px;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+.some-icon:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+  transition:0.3s;
+}
+
+.some-icon:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+  transition:0.3s;
+}
+
+.about-intro-container {
+  margin-top: 124px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-intro-container div:nth-child(1) {
+  text-align: center;
+}
+
+.about-links a {
+  margin-right: 16px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 480px) {
+  #home img {
+    max-width: 100%;
+  }
+
+  .about-intro-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-intro-container .about-text {
+    margin-bottom: 24px;
+  }
+  
+  .about-intro-container .about-text p {
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page {
+    margin-right: auto;
+    margin-left:  auto;
+  
+    max-width: 960px;
+    margin-top: 180px;
+  }
+
+  .project-container {
+    height: 308px;
+  }
+
+  .siamostreet-photo-container {
+    left: 55%;
+    width: 45%;
+  }
+
+  .about-intro-container {
+    align-items: flex-end;
+  }
+}
