@@ -10,6 +10,10 @@ h4 span {
   margin: 40px 0;
 }
 
+.artil-cover {
+  width: 50%;
+}
+
 .problem-statement {
   margin: 0;
   font-family: abril-display, serif;
@@ -51,8 +55,25 @@ h4 span {
     box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.16);
   }
 
+  .section-banner img {
+    width: 100%;
+  }
+
   .mobile-screens-container img {
     box-shadow: none;
+  }
+
+  .horizontal-container {
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+  }
+
+  .horizontal-container img {
+    display: inline-block;
+    width: 30%;
+    margin-right: 8px;
   }
 
   @media (max-width: 480px) {
@@ -68,6 +89,18 @@ h4 span {
     .mobile-screens-container {
       display: none;
     }
+
+    .section-banner {
+      margin-top: 40px;
+    }
+
+    .section-banner img {
+      margin-bottom: 24px;
+    }
+
+    .horizontal-container img {
+      margin-right: 0px;
+    }
   }
 
   @media (min-width: 768px) {
@@ -77,5 +110,13 @@ h4 span {
 
     .problem-statement {
       font-size: 1.5em;
+    }
+
+    .section-banner {
+      margin-top: 64px;
+    }
+
+    .section-banner img {
+      margin-bottom: 40px;
     }
   }
